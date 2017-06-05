@@ -1,5 +1,6 @@
 drop table if exists haddev.tbl1;
 drop table if exists haddev.tbl1;
+drop table if exists haddev.tbl1;
 
 
 CREATE TABLE haddev.tbl1(
