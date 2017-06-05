@@ -1,0 +1,8 @@
+CREATE TABLE haddev.tblf2(
+  sid int, 
+  sname string, 
+  std string)
+Comment 'Created By Adithya'
+ROW FORMAT DELIMITED 
+  FIELDS TERMINATED BY '\t'
+  LINES TERMINATED BY '\n'

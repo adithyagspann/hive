@@ -1,0 +1,10 @@
+CREATE TABLE haddev.tblf1(
+  eid int, 
+  name string, 
+  salary string, 
+  destination string)
+Comment 'Created By Adithya'
+ROW FORMAT DELIMITED 
+  FIELDS TERMINATED BY '\t'
+  LINES TERMINATED BY '\n'
+

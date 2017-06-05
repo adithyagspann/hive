@@ -1,0 +1,9 @@
+CREATE TABLE haddev.tbl4(
+  courseid int, 
+  coursename string, 
+  trainer string)
+Comment 'Created By Adithya'
+ROW FORMAT DELIMITED 
+  FIELDS TERMINATED BY '\t' 
+  LINES TERMINATED BY '\n' 
+

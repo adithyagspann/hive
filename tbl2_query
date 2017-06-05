@@ -1,0 +1,11 @@
+CREATE TABLE haddev.tbl2(
+  sid int, 
+  sname string, 
+  std string)
+Comment 'Created By Adithya'
+ROW FORMAT DELIMITED 
+  FIELDS TERMINATED BY '\t'
+  LINES TERMINATED BY '\n' 
+STORE AS textformat
+LOCATION
+  user/hive/warehouse/haddev.db/tbl2

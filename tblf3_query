@@ -1,0 +1,9 @@
+CREATE TABLE haddev.tblf3(
+  zipcode int, 
+  cityname string, 
+  state string)
+Comment 'Created By Adithya'
+ROW FORMAT DELIMITED 
+  FIELDS TERMINATED BY '\t'
+  LINES TERMINATED BY '\n'
+
