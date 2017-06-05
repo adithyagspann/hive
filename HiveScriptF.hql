@@ -1,5 +1,3 @@
-
-
 CREATE TABLE haddev.tblf1(
   eid int, 
   name string, 
@@ -7,7 +5,7 @@ CREATE TABLE haddev.tblf1(
   destination string)
 ROW FORMAT DELIMITED 
   FIELDS TERMINATED BY '\t' 
-  LINES TERMINATED BY '\n' 
+  LINES TERMINATED BY '\n'; 
 
 
 CREATE TABLE haddev.tblf2(
