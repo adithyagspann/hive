@@ -1,4 +1,4 @@
-drop if exists haddev.tbl2;
+drop table if exists haddev.tbl2;
 
 CREATE TABLE haddev.tbl2(
   sid int, 
