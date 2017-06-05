@@ -5,7 +5,3 @@ CREATE TABLE haddev.tbl2(
 Comment 'Created By Adithya'
 ROW FORMAT DELIMITED 
   FIELDS TERMINATED BY '\t'
-  LINES TERMINATED BY '\n' 
-STORE AS textformat
-LOCATION
-  user/hive/warehouse/haddev.db/tbl2
